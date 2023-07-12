@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71D067F62A4C816900E16D6F /* CarPlayUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D067F52A4C816900E16D6F /* CarPlayUtils.swift */; };
+		71D067F82A4D09DE00E16D6F /* ChargingStationTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D067F72A4D09DE00E16D6F /* ChargingStationTemplate.swift */; };
 		CBAD9E9724A3E3DD00989CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9E9624A3E3DD00989CA4 /* AppDelegate.swift */; };
 		CBAD9E9924A3E3DD00989CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9E9824A3E3DD00989CA4 /* SceneDelegate.swift */; };
 		CBAD9E9B24A3E3DD00989CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD9E9A24A3E3DD00989CA4 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71D067F52A4C816900E16D6F /* CarPlayUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayUtils.swift; sourceTree = "<group>"; };
+		71D067F72A4D09DE00E16D6F /* ChargingStationTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingStationTemplate.swift; sourceTree = "<group>"; };
 		CBAD9E9324A3E3DD00989CA4 /* CarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAD9E9624A3E3DD00989CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBAD9E9824A3E3DD00989CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				CBAD9EA124A3E3DE00989CA4 /* LaunchScreen.storyboard */,
 				CBAD9EA424A3E3DE00989CA4 /* Info.plist */,
 				CBAD9ECB24A3E73800989CA4 /* CarSample.entitlements */,
+				71D067F52A4C816900E16D6F /* CarPlayUtils.swift */,
+				71D067F72A4D09DE00E16D6F /* ChargingStationTemplate.swift */,
 			);
 			path = CarSample;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				CBAD9E9B24A3E3DD00989CA4 /* ViewController.swift in Sources */,
 				CBAD9E9724A3E3DD00989CA4 /* AppDelegate.swift in Sources */,
 				CBAD9ECA24A3E3FE00989CA4 /* CarPlaySceneDelegate.swift in Sources */,
+				71D067F62A4C816900E16D6F /* CarPlayUtils.swift in Sources */,
 				CBAD9E9924A3E3DD00989CA4 /* SceneDelegate.swift in Sources */,
+				71D067F82A4D09DE00E16D6F /* ChargingStationTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,16 +464,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CarSample/CarSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				DEVELOPMENT_TEAM = XKPY665JK8;
 				INFOPLIST_FILE = CarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vonbelow.CarSample;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.porsche.app.carplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,16 +487,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CarSample/CarSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M3DTZN9V9B;
+				DEVELOPMENT_TEAM = XKPY665JK8;
 				INFOPLIST_FILE = CarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vonbelow.CarSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.app.carplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
